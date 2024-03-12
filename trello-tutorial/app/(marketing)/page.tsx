@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { Medal } from "lucide-react";
 
 const MarketingPage = () => {
@@ -19,6 +20,9 @@ const MarketingPage = () => {
       <div className=" text-sm md:text-xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto">
         Collaborate, manage projects, and reach new productivity peaks. From high rises to the home office, the way your team works is unique - accomplish it all with Taskify.
       </div>
+      <Button>
+        
+      </Button>
     </div>
   );
 };
